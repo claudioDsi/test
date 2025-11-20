@@ -6,13 +6,14 @@
     xmlns:server="http://example.org/server"
     xsi:schemaLocation="http://example.org/server webMM.ecore">
   <components
-      name="rpc service"
-      ID="101"/>
+      name="server"
+      ID="104"/>
   <components
       name="client"
       ID="102"/>
   <connectors
-      source="101"
+      source="104"
       target="102"
-      name="rcp"/>
+      name="rest"/>
 </server:Model>
+
