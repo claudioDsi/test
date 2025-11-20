@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server:Model
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:server="http://example.org/server"
+    xsi:schemaLocation="http://example.org/server webMM.ecore">
+  <components
+      name="rpc service"
+      ID="101"/>
+  <components
+      name="client"
+      ID="102"/>
+  <connectors
+      source="101"
+      target="102"
+      name="rcp"/>
+</server:Model>
